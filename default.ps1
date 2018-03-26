@@ -19,11 +19,11 @@ task appVeyor -depends Clean, CreateNuGetPackage
 task Clean {
 	rmdir $output_directory -ea SilentlyContinue -recurse
 	rmdir $dist_directory -ea SilentlyContinue -recurse
-	exec { msbuild /nologo /verbosity:quiet $sln_file /p:Configuration=$target_config /t:Clean }
+	exec { msbuild /nologo /verbosity:quiet $sln_file /p:Configuration=$target_config /p:VisualStudioVersion=14.0 /t:Clean }
 }
 
 task Compile -depends UpdateVersion {
-	exec { msbuild /nologo /verbosity:q $sln_file /p:Configuration=$target_config /p:TargetFrameworkVersion=v4.5 }
+	exec { msbuild /nologo /verbosity:q $sln_file /p:Configuration=$target_config /p:VisualStudioVersion=14.0 /p:TargetFrameworkVersion=v4.5 }
 }
 
 task UpdateVersion {

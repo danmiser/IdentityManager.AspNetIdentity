@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>IdentityManager.AspNetIdentity</id>
+    <id>IdentityManager.AspNetIdentity.MCM</id>
     <version>0.0.0</version>
     <title>IdentityManager - AspNetIdentity</title>
     <authors>Brock Allen, Dominick Baier</authors>
@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/IdentityManager/IdentityManager.AspNetIdentity</projectUrl>
     <iconUrl>https://identityserver.github.io/Documentation/assets/images/icons/IDmanager_icon144.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>"IdentityManager - AspNetIdentity" is a AspNetIdentity-based identity manager provider for IdentityManager.</description>
+    <description>"IdentityManager - AspNetIdentity" is a AspNetIdentity-based identity manager provider for IdentityManager. MCM Fork</description>
     <releaseNotes>First beta version</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>IdentityManager AspNetIdentity Identity Management</tags>
